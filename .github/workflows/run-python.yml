@@ -30,4 +30,4 @@ jobs:
     # 4. Python 스크립트 실행
     - name: Run Python script
       run: |
-        python your_script.py  # 실행하려는 Python 파일 이름
+        python Initialize.py  # 실행하려는 Python 파일 이름
