@@ -300,39 +300,44 @@
         <mxCell id="nmATce3dLNCiQxR703me-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nmATce3dLNCiQxR703me-21" target="nmATce3dLNCiQxR703me-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nmATce3dLNCiQxR703me-21" value="현재 PC의 IP를 추출&lt;div&gt;#current_IP&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-760" y="40" width="200" height="40" as="geometry" />
+        <mxCell id="nmATce3dLNCiQxR703me-21" value="현재 PC의 IP를 추출&lt;div&gt;#current_IP&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-760" y="210" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nmATce3dLNCiQxR703me-30" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nmATce3dLNCiQxR703me-22" target="nmATce3dLNCiQxR703me-26">
-          <mxGeometry y="20" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="nmATce3dLNCiQxR703me-31" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nmATce3dLNCiQxR703me-22" target="nmATce3dLNCiQxR703me-25">
+        <mxCell id="nmATce3dLNCiQxR703me-31" value="unauthorized" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nmATce3dLNCiQxR703me-22" target="nmATce3dLNCiQxR703me-25">
           <mxGeometry y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nmATce3dLNCiQxR703me-22" value="권한이 다음 중 하나인가?&lt;div&gt;admin,&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;limited&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-760" y="320" width="200" height="80" as="geometry" />
+        <mxCell id="nmATce3dLNCiQxR703me-134" value="limited" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nmATce3dLNCiQxR703me-22" target="nmATce3dLNCiQxR703me-133">
+          <mxGeometry x="-0.0244" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nmATce3dLNCiQxR703me-137" value="admin" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nmATce3dLNCiQxR703me-22" target="nmATce3dLNCiQxR703me-135">
+          <mxGeometry y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nmATce3dLNCiQxR703me-22" value="권한이 무엇인가?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-760" y="490" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nmATce3dLNCiQxR703me-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nmATce3dLNCiQxR703me-23" target="nmATce3dLNCiQxR703me-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nmATce3dLNCiQxR703me-23" value="github의 setting.ini 파일 분석&lt;br&gt;&lt;div&gt;&quot;https://raw.githubusercontent.com&lt;br&gt;/onyxofcoma/-/refs/heads&lt;br&gt;/main/setting.ini&quot;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-760" y="120" width="200" height="80" as="geometry" />
+          <mxGeometry x="-760" y="290" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="nmATce3dLNCiQxR703me-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nmATce3dLNCiQxR703me-24" target="nmATce3dLNCiQxR703me-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nmATce3dLNCiQxR703me-24" value="현재 IP를 setting.ini와 대조하여 &lt;br&gt;권한 및 설정값 확인" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-760" y="240" width="200" height="40" as="geometry" />
+          <mxGeometry x="-760" y="410" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nmATce3dLNCiQxR703me-25" value="&lt;div&gt;메시지박스를 출력하고 종료&lt;/div&gt;&quot;매크로를 실행할 권한이 없습니다.&quot; (확인)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-480" y="340" width="240" height="40" as="geometry" />
+          <mxGeometry x="-480" y="500" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nmATce3dLNCiQxR703me-26" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-680" y="440" width="40" height="40" as="geometry" />
+          <mxGeometry x="-680" y="700" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nmATce3dLNCiQxR703me-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nmATce3dLNCiQxR703me-32" target="WIyWlLk6GJQsqaUBKTNV-3">
           <mxGeometry relative="1" as="geometry" />
@@ -340,10 +345,10 @@
         <mxCell id="nmATce3dLNCiQxR703me-32" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="200" y="40" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nmATce3dLNCiQxR703me-36" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;login.py&lt;/h1&gt;&lt;p&gt;github의 파일을 참조하여 현재 IP에 대한 권한 확인&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-510" y="30" width="180" height="120" as="geometry" />
+        <mxCell id="nmATce3dLNCiQxR703me-36" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;setting_manager.py&lt;/h1&gt;&lt;p&gt;github의 파일을 참조하여 현재 IP에 대한 권한 확인&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-510" y="30" width="270" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="nmATce3dLNCiQxR703me-37" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;initialize.py&lt;/h1&gt;&lt;p&gt;결재예약 창의 실행여부 및 &lt;br&gt;버튼 등 실행환경의 좌표 확인&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="nmATce3dLNCiQxR703me-37" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;ui_detection.py&lt;/h1&gt;&lt;p&gt;결재예약 창의 실행여부 및 &lt;br&gt;버튼 등 실행환경의 좌표 확인&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="340" y="40" width="210" height="120" as="geometry" />
         </mxCell>
         <mxCell id="nmATce3dLNCiQxR703me-41" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -547,6 +552,24 @@
         </mxCell>
         <mxCell id="nmATce3dLNCiQxR703me-125" value="찾은 이미지를 기준으로 &lt;br&gt;상하좌우 +20px의 범위 영역을 &lt;br&gt;전역변수로 저장&lt;div&gt;#범위_확인&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="120" y="2869" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nmATce3dLNCiQxR703me-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nmATce3dLNCiQxR703me-131" target="nmATce3dLNCiQxR703me-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nmATce3dLNCiQxR703me-131" value="폼 생성하여 화면에 표시&lt;div&gt;(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;진행과정을 출력)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-760" y="40" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nmATce3dLNCiQxR703me-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nmATce3dLNCiQxR703me-133" target="nmATce3dLNCiQxR703me-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nmATce3dLNCiQxR703me-133" value="프롬프트에서 다음 변수를 입력 받음&lt;div&gt;1. 예약메시지&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-480" y="600" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nmATce3dLNCiQxR703me-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nmATce3dLNCiQxR703me-135" target="nmATce3dLNCiQxR703me-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nmATce3dLNCiQxR703me-135" value="프롬프트에서 다음 변수를 입력 받음&lt;div&gt;1. 예약메시지&lt;/div&gt;&lt;div&gt;2. 목표시간&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-760" y="600" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
